@@ -10,6 +10,11 @@ Create a codes.json file with contents like
         "otpauth://totp/<Website>:<Account>?secret=<secretkey>"
     ]
 
+Or create a text file with contents like
+otpauth://totp/<Website>:<Account>?secret=<secretkey>
+otpauth://totp/<Website>:<Account>?secret=<secretkey>&issuer=<someone>
+
+
 **Limitations**
 - All codes are generated at same interval (30 secs)
 - If the number of codes generated are more than screenful, previous lines aren't overwritten
