@@ -11,8 +11,10 @@ Create a codes.json file with contents like
     ]
 
 Or create a text file with contents like
+```
 otpauth://totp/<Website>:<Account>?secret=<secretkey>
 otpauth://totp/<Website>:<Account>?secret=<secretkey>&issuer=<someone>
+```
 
 
 **Limitations**
